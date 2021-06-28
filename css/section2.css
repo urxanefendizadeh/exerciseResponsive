@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*  Desktop in portrait mode  */
+
+@media only screen and (min-width: 991px)  {
+    .section2{
+        width: 100%;
+        height: 300px;
+        background-color: #102B3E; 
+        padding: 0 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .sec2TextDiv{
+        width: 20%;
+        height: 100px;
+        margin-top: -80px;
+    }
+    .sec2TextDiv > h3{
+        font-family: sans-serif;
+        color: #19C9A2;
+        text-align: center;
+    }
+    .sec2TextDiv > p{
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+    .section2 > button {
+        width: 8%;
+        height: 25px;
+        background-color: #19C9A2;
+        border: none;
+        color: white;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    .sec2imgsDiv{
+        width: 45%;
+        height: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 210px;
+    }
+    .img{
+        width: 28%;
+        height: 110px;
+        background-color: #1CC8A0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+}
+
+
+    /*  Tablets in portrait mode, large display smartphones landscape mode */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .section2{
+            width: 100%;
+            height: 300px;
+            background-color: #102B3E; 
+            padding: 0 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .sec2TextDiv{
+            width: 38%;
+            height: 110px;
+            margin-top: -80px;
+        }
+        .sec2TextDiv > h3{
+            font-family: sans-serif;
+            color: #19C9A2;
+            text-align: center;
+            font-size: 22px;
+        }
+        .sec2TextDiv > p{
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            line-height: 1.4;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .section2 > button {
+            width: 17%;
+            height: 28px;
+            background-color: #19C9A2;
+            border: none;
+            color: white;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+        }
+        .sec2imgsDiv{
+            width: 68%;
+            height: 140px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 210px;
+        }
+        .img{
+            width: 30%;
+            height: 110px;
+            background-color: #1CC8A0;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+       
+    }
+    
+   
+    
+    /*  Smartphones in portrait mode  */
+    
+    @media only screen and (max-width: 767px) {
+        .section2{
+            width: 100%;
+            height: 300px;
+            background-color: #102B3E; 
+            padding: 0 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .sec2TextDiv{
+            width: 35%;
+            height: 100px;
+            margin-top: -80px;
+        }
+        .sec2TextDiv > h3{
+            font-family: sans-serif;
+            color: #19C9A2;
+            text-align: center;
+        }
+        .sec2TextDiv > p{
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            line-height: 1.4;
+            margin-top: 10px;
+            font-size: 17px;
+        }
+        .section2 > button {
+            width: 15%;
+            height: 27px;
+            background-color: #19C9A2;
+            border: none;
+            color: white;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+        }
+        .sec2imgsDiv{
+            width: 68%;
+            height: 140px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 210px;
+        }
+        .img{
+            width: 30%;
+            height: 110px;
+            background-color: #1CC8A0;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }

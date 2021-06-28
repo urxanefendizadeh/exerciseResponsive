@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Desktop in portrait mode  */
+
+@media only screen and (min-width: 991px)  {
+    .section6{
+        width: 100%;
+        height: 200px;
+        background-color: #0B2130;
+        padding: 30px 90px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec6left{
+        width: 13%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footerKvs{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .footerKv{
+        width: 11%;
+        height: 18px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        background-color: #1EC6A1;
+        margin-left: 10px;
+    }
+    .sec6leftDivs{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sec6leftDiv{
+        width: 20%;
+        height: 3px;
+        background-color: #1EC6A1;
+        border-radius: 30%;
+        -webkit-border-radius: 30%;
+        -moz-border-radius: 30%;
+        -ms-border-radius: 30%;
+        -o-border-radius: 30%;
+    }
+    .sec6right{
+        width: 40%;
+        height: 130px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec6rightDivs{
+        width: 25%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rightDivsHead{
+        width: 100%;
+        height: 20px;
+    }
+    .rightDivsHeadText{
+        width: 100%;
+        height: 7px;
+        background-color: #1EC6A1;
+        border-radius: 45px;
+        -webkit-border-radius: 45px;
+        -moz-border-radius: 45px;
+        -ms-border-radius: 45px;
+        -o-border-radius: 45px;
+    }
+    .rightDivsBody{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .rightDivsBodyText{
+        width: 70%;
+        height: 4px;
+        background-color: white;
+        border-radius: 45px;
+        -webkit-border-radius: 45px;
+        -moz-border-radius: 45px;
+        -ms-border-radius: 45px;
+        -o-border-radius: 45px;
+    }
+    .rightDivsBodyTextSmall{
+        width: 50%;
+        height: 4px;
+        background-color: white;
+        border-radius: 45px;
+        -webkit-border-radius: 45px;
+        -moz-border-radius: 45px;
+        -ms-border-radius: 45px;
+        -o-border-radius: 45px;
+    }
+}
+
+
+    /*  Tablets in portrait mode, large display smartphones landscape mode */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .section6{
+            width: 100%;
+            height: 200px;
+            background-color: #0B2130;
+            padding: 30px 30px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .sec6left{
+            width: 22%;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .footerKvs{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+        .footerKv{
+            width: 13%;
+            height: 21px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            background-color: #1EC6A1;
+            margin-left: 11px;
+        }
+        .sec6leftDivs{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .sec6leftDiv{
+            width: 20%;
+            height: 3px;
+            background-color: #1EC6A1;
+            border-radius: 30%;
+            -webkit-border-radius: 30%;
+            -moz-border-radius: 30%;
+            -ms-border-radius: 30%;
+            -o-border-radius: 30%;
+        }
+        .sec6right{
+            width: 40%;
+            height: 130px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .sec6rightDivs{
+            width: 25%;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .rightDivsHead{
+            width: 100%;
+            height: 20px;
+        }
+        .rightDivsHeadText{
+            width: 100%;
+            height: 7px;
+            background-color: #1EC6A1;
+            border-radius: 45px;
+            -webkit-border-radius: 45px;
+            -moz-border-radius: 45px;
+            -ms-border-radius: 45px;
+            -o-border-radius: 45px;
+        }
+        .rightDivsBody{
+            width: 100%;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .rightDivsBodyText{
+            width: 70%;
+            height: 4px;
+            background-color: white;
+            border-radius: 45px;
+            -webkit-border-radius: 45px;
+            -moz-border-radius: 45px;
+            -ms-border-radius: 45px;
+            -o-border-radius: 45px;
+        }
+        .rightDivsBodyTextSmall{
+            width: 50%;
+            height: 4px;
+            background-color: white;
+            border-radius: 45px;
+            -webkit-border-radius: 45px;
+            -moz-border-radius: 45px;
+            -ms-border-radius: 45px;
+            -o-border-radius: 45px;
+        }
+ }
+    
+    
+   
+    
+    /*  Smartphones in portrait mode  */
+    
+    @media only screen and (max-width: 767px) {
+        .section6{
+            width: 100%;
+            height: 200px;
+            background-color: #0B2130;
+            padding: 30px 30px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .sec6left{
+            width: 22%;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .footerKvs{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+        .footerKv{
+            width: 11%;
+            height: 18px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            background-color: #1EC6A1;
+            margin-left: 10px;
+        }
+        .sec6leftDivs{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .sec6leftDiv{
+            width: 20%;
+            height: 3px;
+            background-color: #1EC6A1;
+            border-radius: 30%;
+            -webkit-border-radius: 30%;
+            -moz-border-radius: 30%;
+            -ms-border-radius: 30%;
+            -o-border-radius: 30%;
+        }
+        .sec6right{
+            width: 40%;
+            height: 130px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .sec6rightDivs{
+            width: 25%;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .rightDivsHead{
+            width: 100%;
+            height: 20px;
+        }
+        .rightDivsHeadText{
+            width: 100%;
+            height: 7px;
+            background-color: #1EC6A1;
+            border-radius: 45px;
+            -webkit-border-radius: 45px;
+            -moz-border-radius: 45px;
+            -ms-border-radius: 45px;
+            -o-border-radius: 45px;
+        }
+        .rightDivsBody{
+            width: 100%;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .rightDivsBodyText{
+            width: 70%;
+            height: 4px;
+            background-color: white;
+            border-radius: 45px;
+            -webkit-border-radius: 45px;
+            -moz-border-radius: 45px;
+            -ms-border-radius: 45px;
+            -o-border-radius: 45px;
+        }
+        .rightDivsBodyTextSmall{
+            width: 50%;
+            height: 4px;
+            background-color: white;
+            border-radius: 45px;
+            -webkit-border-radius: 45px;
+            -moz-border-radius: 45px;
+            -ms-border-radius: 45px;
+            -o-border-radius: 45px;
+        }
+    }

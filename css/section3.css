@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*  Desktop in portrait mode  */
+
+@media only screen and (min-width: 991px)  {
+    .section3{
+        width: 100%;
+        height: 700px;
+        background-color: #CED8E1;
+        padding: 90px 90px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 > h2{
+        color: #19C9A2;
+        font-family: sans-serif;
+    }
+    .sec3AboutDivs{
+        width: 70%;
+        height: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+        padding: 0 50px;
+        margin-top: 40px;
+    }
+    .sec3imgsDivs{
+        width: 30%;
+        height: 250px;
+        border: 2px solid #10232F;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .sec3img{
+        width: 100%;
+        height: 100px;
+        background-color: #102B3E;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .textHead{
+        width: 100%;
+        height: 20px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+        color: rgb(18, 161, 130);
+    }
+    .textHead > h5{
+        font-size: 16px;
+    }
+    .sec3imgsDivs > p{
+        margin-top: 20px;
+        line-height: 1.3;
+    }
+    .onePart{
+        width: 100%;
+        height: 225px;
+        padding: 8px 8px 0;
+    }
+    .imgDivsFooter{
+        width: 100%;
+        height: 20px;
+        border-top:1px solid black;
+        padding: 0 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .imgFooterLeft{
+        width: 18%;
+        height: 12px;
+        background-color: #19C9A2;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+    .imgFooterRight{
+        width: 25%;
+        height: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .circle{
+        width: 21%;
+        height: 9px;
+        background-color: #19C9A2;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+}
+
+
+    /*  Tablets in portrait mode, large display smartphones landscape mode */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+        .section3{
+            width: 100%;
+            height: 760px;
+            background-color: #CED8E1;
+            padding: 90px 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section3 > h2{
+            color: #19C9A2;
+            font-family: sans-serif;
+        }
+        .sec3AboutDivs{
+            width: 90%;
+            height: 530px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-between;
+            padding: 0 0px;
+            margin-top: 40px;
+        }
+        .sec3imgsDivs{
+            width: 30%;
+            height: 250px;
+            border: 2px solid #10232F;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .sec3img{
+            width: 100%;
+            height: 100px;
+            background-color: #102B3E;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .textHead{
+            width: 100%;
+            height: 20px;
+            margin-top: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-family: sans-serif;
+            color: rgb(18, 161, 130);
+        }
+        .sec3imgsDivs > p{
+            margin-top: 20px;
+            line-height: 1.3;
+        }
+        .onePart{
+            width: 100%;
+            height: 225px;
+            padding: 8px 8px 0;
+        }
+        .imgDivsFooter{
+            width: 100%;
+            height: 20px;
+            padding: 0 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top:1px solid black;
+        }
+        
+        .imgFooterLeft{
+            width: 16%;
+            height: 12px;
+            background-color: #19C9A2;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+        }
+        .imgFooterRight{
+            width: 25%;
+            height: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .circle{
+            width: 27%;
+            height: 11px;
+            background-color: #19C9A2;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+       
+    }
+    
+   
+    
+    /*  Smartphones in portrait mode  */
+    
+    @media only screen and (max-width: 767px) {
+        .section3{
+            width: 100%;
+            height: 760px;
+            background-color: #CED8E1;
+            padding: 90px 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section3 > h2{
+            color: #19C9A2;
+            font-family: sans-serif;
+        }
+        .sec3AboutDivs{
+            width: 90%;
+            height: 530px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-between;
+            padding: 0 0px;
+            margin-top: 40px;
+        }
+        .sec3imgsDivs{
+            width: 30%;
+            height: 250px;
+            border: 2px solid #10232F;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .sec3img{
+            width: 100%;
+            height: 100px;
+            background-color: #102B3E;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .textHead{
+            width: 100%;
+            height: 20px;
+            margin-top: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-family: sans-serif;
+            color: rgb(18, 161, 130);
+        }
+        .sec3imgsDivs > p{
+            margin-top: 20px;
+            line-height: 1.4;
+        }
+        .onePart{
+            width: 100%;
+            height: 225px;
+            padding: 8px 8px 0;
+        }
+        .imgDivsFooter{
+            width: 100%;
+            height: 20px;
+            border-top:1px solid black;
+            padding: 0 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .imgFooterLeft{
+            width: 19%;
+            height: 12px;
+            background-color: #19C9A2;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+        }
+        .imgFooterRight{
+            width: 28%;
+            height: 13px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .circle{
+            width: 21%;
+            height: 10px;
+            background-color: #19C9A2;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
